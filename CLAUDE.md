@@ -64,6 +64,17 @@ Converts the current web page to Markdown and saves it as a `.md` file in the Do
 - **Output**: prepends page title, source URL, and date before the converted body; downloads via `chrome.downloads.download()` using a data URL
 - **Known limitations**: won't work on browser internal pages (`chrome://`, `edge://`) or sites that block script injection
 
+## GitHub
+
+Repo: https://github.com/giestimothy-afk/browser-extensions
+GitHub CLI (`gh`) is installed and authenticated as **giestimothy-afk**.
+
+```bash
+gh repo view --web        # open repo in browser
+gh pr create              # create a pull request
+gh issue create           # create an issue
+```
+
 ## Debugging
 
 - **Popup**: Right-click the extension icon → Inspect
