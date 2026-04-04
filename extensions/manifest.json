@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Session Capture",
+  "version": "1.0",
+  "description": "Captures session cookies from authenticated sites for use with Claude Code",
+  "permissions": ["cookies", "activeTab", "clipboardWrite"],
+  "host_permissions": [
+    "https://*.familysearch.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Capture Session for Claude"
+  }
+}
